@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>How to Contribute Code - KandanApp</title>
+  <meta name="author" content="Kandan Crew">
+
+  
+  <meta name="description" content="">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://kandanapp.github.com/blog/2013/02/05/how-to-contribute-code">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/syntax/syntax.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    body {
+      padding-bottom: 40px;
+    }
+    h1 {
+      margin-bottom: 15px;
+    }
+    img {
+      max-width: 100%;
+    }
+    .sharing, .meta, .pager {
+      margin: 20px 0px 20px 0px;
+    }
+    .page-footer p {
+      text-align: center;
+    }
+  </style>
+  <script src="/javascripts/libs/jquery.js"></script>
+  <script src="/javascripts/libs/modernizr-2.0.js"></script>
+  <script src="/javascripts/libs/bootstrap.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="KandanApp" type="application/atom+xml">
+  
+  
+
+</head>
+
+<body   >
+  <nav role="navigation"><div class="navbar navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+      <a class="brand" href="/">KandanApp</a>
+
+      <div class="nav-collapse">
+        <ul class="nav">
+  <li><a href="/">Home</a></li>		
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+
+        <ul class="nav pull-right" data-subscription="rss">
+          <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+          
+        </ul>
+
+        
+          <form class="pull-right navbar-search" action="http://google.com/search" method="get">
+            <fieldset role="search">
+              <input type="hidden" name="q" value="site:kandanapp.github.com" />
+              <input class="search-query" type="text" name="q" results="0" placeholder="Search"/>
+            </fieldset>
+          </form>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+  <div class="container">
+    <div class="row-fluid">
+      
+<article class="hentry span9" role="article">
+
+  
+  <header class="page-header">
+    
+      <h1 class="entry-title">How to Contribute Code</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-05T15:17:00-08:00" pubdate data-updated="true">Feb 5<span>th</span>, 2013</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><div class="alert alert-info">
+    <h4>Note: </h4>This is a living Document. The most recent copy is always available on the <a href="https://github.com/kandanapp/kandan/wiki/How-to-Contribute-Code">Wiki</a>
+</div>
+
+
+<h3>How To Contribute Code</h3>
+
+<p>Whether you&#8217;ve got a bugfix, documentation update, or new feature for us, these are the steps to follow to contribute code back into the main kandan repo.</p>
+
+<p><strong>1. Get the latest code from Github</strong></p>
+
+<p>You&#8217;ll need to understand a little bit about how git and gihub work before this step (if you need an introduction guide, Github <a href="http://learn.github.com/p/intro.html">has a good one</a> you can learn from). In simple terms, log in to github, visit the Kandan project page, and click the &#8220;fork&#8221; button to create your own copy of the repo.  You will push your changes to this new repo under your own github account, and we will pull changes into the main repo from there.</p>
+
+<!-- more -->
+
+
+<p>For the sake of the rest of the examples in this guide, we&#8217;re going to assume your Github username is &#8221;<strong>GITHUB_USERNAME</strong>&#8221; and use that in our examples.</p>
+
+<p>Now, we want to grab the latest from this newly created repository and pull it down to your local machine. Getting the latest code from your repo is simple, just clone it:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git clone git://github.com/GITHUB_USERNAME/kandan.git
+</span><span class='line'><span class="nb">cd </span>kandan
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This will give you a directory called &#8220;kandan&#8221; on your local machine with the latest checkout from your fork of the main kandan repo. <strong>Note:</strong> this is <em>not</em> a direct reference to the main kandan repo. When you make changes in your fork, you&#8217;ll need to let us know about it so we can pull it over&#8230;.but that&#8217;s later in the process.</p>
+
+<p><strong>2. Add a remote for the main kandan repo</strong></p>
+
+<p>One thing you&#8217;ll need to do to make things easier to integrate and keep up to date in your fork is to add the main kandan repo as a remote reference. This way you can fetch the latest code from the production version and integrate it. So, here&#8217;s how to set that up:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git remote add upstream https://github.com/kandanapp/kandan.git
+</span><span class='line'>git remote   <span class="o">(</span>this will list out your remotes, showing the new one we added<span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then, when you need to pull the latest from the main kandan repo, you just fetch and merge the master branch:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git fetch upstream
+</span><span class='line'>git merge upstream/master
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You can also use <em>git pull upstream master</em> if you want it all in one step.</p>
+
+<p><strong>3. Making a branch for your changes</strong></p>
+
+<p>When adding features or bug fixes, please create a separate branch for each changeset you want us to pull in, either with the issue number in the branch name or with an indication of what the feature is. To create the branch, do something like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git branch   <span class="o">(</span>lists your current branches<span class="o">)</span>
+</span><span class='line'>git branch my_new_code   <span class="o">(</span>makes a new branch called my_new_code<span class="o">)</span>
+</span><span class='line'>git checkout my_new_code
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>If you&#8217;re working on an issue in the Issues list for the main kandan repo, use the naming convention &#8220;kandan-[issue-num]&#8221; for your branch name to help us keep track of what your patch actually fixes</p>
+
+<p><strong>4. Push your code and make a pull request</strong></p>
+
+<p>When you have finished making your changes, you&#8217;ll need to push up your changes to your fork so we can grab them. With them all committed, push them:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git push upstream kandan-<span class="o">[</span>issue-num<span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This pushes everything in that branch up. Then you can go back over to the main kandan github page and issue a pull request from there.  Tell us what you want us to merge and what it does/fixes, and one of us will pick it up.</p>
+
+<p>That lets us know that there&#8217;s something new from you that needs to be pulled in. We&#8217;ll review it and get back to you about it if we have any questions. Otherwise, we&#8217;ll integrate it and let you know when it&#8217;s in!</p>
+
+<h3>Conclusion</h3>
+
+<p>Hope this guide helps you get started in contributing to the kandan project! If you still have questions, don&#8217;t hesitate to send an email over to admin@kandanapp.com and we&#8217;ll get back to you.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Kandan Crew</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-05T15:17:00-08:00" pubdate data-updated="true">Feb 5<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/development-process/'>Development Process</a>, <a class='category' href='/blog/categories/kandan/'>Kandan</a>, <a class='category' href='/blog/categories/open-source/'>Open Source</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kandanapp.github.com/blog/2013/02/05/how-to-contribute-code/" data-via="kandanapp" data-counturl="http://kandanapp.github.com/blog/2013/02/05/how-to-contribute-code/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    
+    <section>
+      <h1>Comments</h1>
+      <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    </section>
+    
+    <ul class="pager">
+      
+      <li class="previous"><a class="basic-alignment left"
+        href="/blog/2013/02/05/how-to-contribute-issues/" title="Previous Post:
+        How to Contribute Issues">&laquo; How to Contribute Issues</a></li>
+      
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      
+      <li class="next"><a class="basic-alignment right" href="/blog/2013/02/06/kandan-1-dot-0-release-announcement/"
+        title="Next Post: Kandan 1.0 Release Announcement">Kandan 1.0 Release Announcement
+        &raquo;</a></li>
+      
+    </ul>
+  </footer>
+</article>
+
+<aside class="sidebar-nav span3">
+  
+    <section class="well">
+  <ul id="recent_posts" class="nav nav-list">
+    <li class="nav-header">Recent Posts</li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/28/welcoming-kandan-1-dot-1/">Welcoming Kandan 1.1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/06/kandan-1-dot-0-release-announcement/">Kandan 1.0 Release Announcement</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/05/how-to-contribute-code/">How to Contribute Code</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/05/how-to-contribute-issues/">How to Contribute Issues</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/03/kandan-an-open-source-alternative-to-hipchat/">Kandan an Open Source Alternative to HipChat</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section class="well">
+  <ul id="gh_repos" class="nav">
+    <li class="nav-header">GitHub Repos</li>
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/kandanapp">@kandanapp</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        github.showRepos({
+            user: 'kandanapp',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/asides/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section class="well">
+  <ul id="tweets" class="nav">
+    <li class="nav-header">Latest Tweets</li>
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      getTwitterFeed("kandanapp", 5, true);
+    });
+  </script>
+  <script src="/javascripts/asides/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/kandanapp" class="twitter-follow-button" data-show-count="true">Follow @kandanapp</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo" class="page-footer"><hr>
+<p>
+  Copyright &copy; 2013 - Kandan Crew -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'kandanapp';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://kandanapp.github.com/blog/2013/02/05/how-to-contribute-code/';
+        var disqus_url = 'http://kandanapp.github.com/blog/2013/02/05/how-to-contribute-code/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
