@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Kandan | KandanApp]]></title>
+  <link href="http://kandanapp.github.com/blog/categories/kandan/atom.xml" rel="self"/>
+  <link href="http://kandanapp.github.com/"/>
+  <updated>2013-03-07T10:21:18-08:00</updated>
+  <id>http://kandanapp.github.com/</id>
+  <author>
+    <name><![CDATA[Kandan Crew]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Welcoming Kandan 1.1]]></title>
+    <link href="http://kandanapp.github.com/blog/2013/02/28/welcoming-kandan-1-dot-1/"/>
+    <updated>2013-02-28T11:01:00-08:00</updated>
+    <id>http://kandanapp.github.com/blog/2013/02/28/welcoming-kandan-1-dot-1</id>
+    <content type="html"><![CDATA[<p>The Kandan Team is pleased to announce the Official 1.0 release of <a href="https://github.com/kandanapp/kandan">Kandan</a> an Open Source alternative to HipChat.</p>
+
+<p>What is Kandan? Kandan is a private chat service for your company or team. You can invite colleagues to share ideas and files in a persistent group chat room or rooms.</p>
+
+<p>Unlike HipChat or other alternatives, Kandan is completely Open Source and can be hosted internally or externally by your organization or by a third party.</p>
+
+<!-- more -->
+
+
+<h3>What's New in 1.1</h3>
+
+<p>These are the major changes that are now in 1.1</p>
+
+<ul>
+<li>Added an Adminstrative Console. This is very basic at the moment but will allow any admin to set the max number of rooms, set a Kandan installation as public or private, and will perform basic user management.
+
+<ul>
+<li><img src="/images/kandan_1.1_admin.png"></li>
+</ul>
+</li>
+<li>Room names have been added as unique. An error is now shown if a user tries to create a room with a name that's already in use.
+
+<ul>
+<li><img src="/images/kandan_1.1_rooms.png"></li>
+</ul>
+</li>
+<li>We've extended the emoticon plugin to support the full <a href="http://www.emoji-cheat-sheet.com/">emoji set</a>
+
+<ul>
+<li><img src="/images/kandan_1.1_emojis.png"></li>
+</ul>
+</li>
+<li>Added Desktop notifications. This will work out of the box with Chrome or Safari. If you're using Firefox you will need to install <a href="https://addons.mozilla.org/en-us/firefox/addon/html-notifications/">HTML Desktop Notifications</a>
+
+<ul>
+<li><img src="/images/kandan_1.1_notifications.png"></li>
+</ul>
+</li>
+<li>We've added support for @mentions.
+
+<ul>
+<li><img src="/images/kandan_1.1_mentions.png"></li>
+</ul>
+</li>
+<li>Added plugin suport for <a href="http://vimeo.com">Vimeo</a>
+
+<ul>
+<li><img src="/images/kandan_1.1_vimeo.png"></li>
+</ul>
+</li>
+<li>Added &amp; tested <a href="https://github.com/kandanapp/kandan/wiki/Installation#wiki-appfog">installation instructions</a> for <a href="https://www.appfog.com/">AppFog</a>.</li>
+</ul>
+
+
+<h3>Get Involved</h3>
+
+<p>Since Kandan is a fully open-source app, we would appreciate if you dive in and start adding features, fixing bugs (what bugs?), and cleaning up the code.</p>
+
+<p>To find out how to best contribute please read our <a href="https://github.com/kandanapp/kandan/blob/master/CONTRIBUTING.md">Contributing Guidelines</a>.</p>
+
+<p>For a full list of changes please take a look at the <a href="https://github.com/kandanapp/kandan/blob/master/CHANGELOG.md">CHANGELOG</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kandan 1.0 Release Announcement]]></title>
+    <link href="http://kandanapp.github.com/blog/2013/02/06/kandan-1-dot-0-release-announcement/"/>
+    <updated>2013-02-06T20:51:00-08:00</updated>
+    <id>http://kandanapp.github.com/blog/2013/02/06/kandan-1-dot-0-release-announcement</id>
+    <content type="html"><![CDATA[<h3>Announcement</h3>
+
+<p>The Kandan Team is pleased to announce the Official 1.0 release of <a href="https://github.com/kandanapp/kandan">Kandan</a> an Open Source alternative to HipChat.</p>
+
+<p>What is Kandan? Kandan is a private chat service for your company or team. You can invite colleagues to share ideas and files in a persistent group chat room or rooms.</p>
+
+<p>Unlike HipChat or other alternatives, Kandan is completely Open Source and can be hosted internally or externally by your organization or by a third party.</p>
+
+<!-- more -->
+
+
+<h3>Features</h3>
+
+<p>These are features that work out of the box on any provider:</p>
+
+<ul>
+<li>Easy deploy to CloudFoundry, Heroku, dotCloud, etc.</li>
+<li>Collaborative team chat</li>
+<li>Unlimited channels</li>
+<li>Embed formats for images and youtube videos with requests for others (twitter, facebook, g+, etc.)</li>
+<li>Synchronized sound player - play any audio-tag compatible url for the whole channel (Pending :P)</li>
+<li>/me command!</li>
+<li>Highly extensible plugin format</li>
+</ul>
+
+
+<h3>Get Involved</h3>
+
+<p>Since Kandan is a fully open-source app, we would appreciate if you dive in and start adding features, fixing bugs (what bugs?), and cleaning up the code.</p>
+
+<p>But before you jump right in there there are a few caveats.</p>
+
+<p>If you're going to contribute code then you're going to have to sign our <a href="http://www.clahub.com/agreements/kandanapp/kandan">Contributor License Agreement</a> (hereafter referred to as CLA) which is modeled after the one that <a href="http://nodejs.org">NodeJS</a> uses.</p>
+
+<p>A CLA is a legal document in which you state you are entitled to contribute the code/documentation/translation to the project you’re contributing to and are willing to have it used in distributions and derivative works. This means that should there be any kind of legal issue in the future as to the origins and ownership of any particular piece of code, then that project has the necessary forms on file from the contributor(s) saying they were permitted to make this contribution.</p>
+
+<p>The CLA also ensures that once you have provided a contribution, you cannot try to withdraw permission for its use at a later date. People and companies can therefore use that software, confident that they will not be asked to stop using pieces of the code at a later date.</p>
+
+<p>You will also really want to take heart and read these two blog posts.</p>
+
+<ul>
+<li><a href="http://kandanapp.com/blog/2013/02/05/how-to-contribute-code/">How to Contribute Code</a></li>
+<li><a href="http://kandanapp.com/blog/2013/02/05/how-to-contribute-issues/">How to Contribute Issues</a></li>
+</ul>
+
+
+<p>Make sure you check out these resources as well.</p>
+
+<ul>
+<li>GitHub <a href="https://github.com/kandanapp/kandan/issues">Issues Tracker</a></li>
+<li>Twitter <a href="https://twitter.com/kandanapp">@kandanapp</a></li>
+<li><a href="http://kandan-demo.kandanapp.com/">Kandan Demo</a> (Yes we eat our own DogFood)</li>
+</ul>
+
+
+<p>And here is the CHANGELOG for the 1.0 release.</p>
+
+<hr />
+
+<h3>CHANGELOG</h3>
+
+<h4>[v1.0]</h4>
+
+<ul>
+<li><a href="http://github.com/kandanapp/kandan/commit/38f4875">38f4875</a> Create CONTRIBUTING.md <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/605c237">605c237</a> Update README.md <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/c42c82b">c42c82b</a> Update README.md <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/6c025a8">6c025a8</a> Update README.md <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/f5be2b4">f5be2b4</a> Update README.md <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/fadff2d">fadff2d</a> Merge pull request #43 from fusion94/master <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/0646509">0646509</a> Correctly set channel and user in bootstrapped messages thanks to @madx Fixes #32 <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/46207f4">46207f4</a> Merge pull request #41 from fusion94/master <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/809cf7b">809cf7b</a> biggish commit on style. Fixes #13 #34 #36 #37 <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/22a0816">22a0816</a> Merge pull request #33 from kandanapp/update-paperclip <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/75c4666">75c4666</a> Updating paperclip, stage uno <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/8d4a9dd">8d4a9dd</a> Merge pull request #30 from fusion94/master <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/a39ddbc">a39ddbc</a> Moving from displaying email to displaying usernames, username is now required to register. Fixes #2 <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/ae3f5a3">ae3f5a3</a> Merge pull request #28 from amanelis/coverage <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/40d3df8">40d3df8</a> Added simplecov to spec helper <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/c74d2ed">c74d2ed</a> Added coverage/ dir to gitignore <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/dcb131f">dcb131f</a> Added simplecov to Gemfile <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/c6b9651">c6b9651</a> Update README.md <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/9bf68fa">9bf68fa</a> Merge pull request #27 from jrgifford/upgrade-sass <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/626cc2e">626cc2e</a> updated to sass 3.2.5 <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/f762ba4">f762ba4</a> Merge pull request #14 from jrgifford/local-installs <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/69bed6a">69bed6a</a> Fixes #8 <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/0c3e253">0c3e253</a> added not pushing public/system/* to .gitignore. also set default channel to be named lobby. fixed #9 <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/d112c8b">d112c8b</a> Modified two things:   - travis.yml   - gemfile.lock to remove the dependency on git-based jasmine <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/4d770f5">4d770f5</a> Merge pull request #5 from amanelis/spec-updates <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/253a030">253a030</a> Fixes issue #6 <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/350dde9">350dde9</a> Merge remote branch kandan/master <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/7965928">7965928</a> ci-skip added build status to readme <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/50e0e38">50e0e38</a> Added travis.yml. <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/bf80a5e">bf80a5e</a> correcting typo on a URL in README <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/b453b72">b453b72</a> adding links to UPDATE section of README <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/f529046">f529046</a> added an UPDATE section of the README <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/291884a">291884a</a> updating links in README <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/3c47fcb">3c47fcb</a> oops a typo <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/dcb016e">dcb016e</a> potential width fix <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/840525f">840525f</a> width issues <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/d3131dd">d3131dd</a> resolving file attachment issues <strong>(Tony Guntharp)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/628138f">628138f</a> Removed rails default images, all tests pass :green_heart: <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/2ad13e5">2ad13e5</a> Changed up when not authenticated <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/5409535">5409535</a> Re wrote a few expects in model specs <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/827cde1">827cde1</a> Changed up the before blocks, calling methods to many times <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/6c790fa">6c790fa</a> Added faker gem for a few testing purposes <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/c712a4f">c712a4f</a> Line for intialize on precompile found twice :trollface: <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/6e6ec3b">6e6ec3b</a> Don't need to require factory_girl <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/89a59fa">89a59fa</a> Added db cleaner to spec config <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/987a39a">987a39a</a> Added db cleaner and a few other handy development gems <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/452962e">452962e</a> Whitespace <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/a8a9442">a8a9442</a> Slight modification to how the api controller spec is structured <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/4d81157">4d81157</a> Removed rack-mini-profiler, decided wasn't worthy right now <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/46fa134">46fa134</a> More factory girl updates to deprication <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/c572837">c572837</a> Updated factory deprication for next <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/c94a8ee">c94a8ee</a> Added some better gems for development <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/bc8e10d">bc8e10d</a> Was already using sqlite locally :trollface: <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/84ea429">84ea429</a> Added rvmrc to the gitignore file <strong>(Alex Manelis)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/000ea1f">000ea1f</a> Merge pull request #36 from bielefeldt/master <strong>(Sean Grove)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/dead52c">dead52c</a> README change with Heroku S3 integrations <strong>(response)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/baa502c">baa502c</a> Update Readme <strong>(Kev Zettler)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/ba2c630">ba2c630</a> Removed Cloudfuji references from readme <strong>(Kev Zettler)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/5b8bb9b">5b8bb9b</a> Merge pull request #34 from jrgifford/master <strong>(Kev Zettler)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/5606ea4">5606ea4</a> :heart: Guard, fixed specs to work with latest factory girl. <strong>(James Gifford)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/6978925">6978925</a> Merge pull request #33 from jrgifford/master <strong>(Kev Zettler)</strong></li>
+<li><a href="http://github.com/kandanapp/kandan/commit/a1fd6f9">a1fd6f9</a> Updated rails to avoid ActionPack vuls. <strong>(James Gifford)</strong></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Contribute Code]]></title>
+    <link href="http://kandanapp.github.com/blog/2013/02/05/how-to-contribute-code/"/>
+    <updated>2013-02-05T15:17:00-08:00</updated>
+    <id>http://kandanapp.github.com/blog/2013/02/05/how-to-contribute-code</id>
+    <content type="html"><![CDATA[<div class="alert alert-info">
+    <h4>Note: </h4>This is a living Document. The most recent copy is always available on the <a href="https://github.com/kandanapp/kandan/wiki/How-to-Contribute-Code">Wiki</a>
+</div>
+
+
+<h3>How To Contribute Code</h3>
+
+<p>Whether you've got a bugfix, documentation update, or new feature for us, these are the steps to follow to contribute code back into the main kandan repo.</p>
+
+<p><strong>1. Get the latest code from Github</strong></p>
+
+<p>You'll need to understand a little bit about how git and gihub work before this step (if you need an introduction guide, Github <a href="http://learn.github.com/p/intro.html">has a good one</a> you can learn from). In simple terms, log in to github, visit the Kandan project page, and click the "fork" button to create your own copy of the repo.  You will push your changes to this new repo under your own github account, and we will pull changes into the main repo from there.</p>
+
+<!-- more -->
+
+
+<p>For the sake of the rest of the examples in this guide, we're going to assume your Github username is "<strong>GITHUB_USERNAME</strong>" and use that in our examples.</p>
+
+<p>Now, we want to grab the latest from this newly created repository and pull it down to your local machine. Getting the latest code from your repo is simple, just clone it:</p>
+
+<p><code>bash
+git clone git://github.com/GITHUB_USERNAME/kandan.git
+cd kandan
+</code>
+This will give you a directory called "kandan" on your local machine with the latest checkout from your fork of the main kandan repo. <strong>Note:</strong> this is <em>not</em> a direct reference to the main kandan repo. When you make changes in your fork, you'll need to let us know about it so we can pull it over....but that's later in the process.</p>
+
+<p><strong>2. Add a remote for the main kandan repo</strong></p>
+
+<p>One thing you'll need to do to make things easier to integrate and keep up to date in your fork is to add the main kandan repo as a remote reference. This way you can fetch the latest code from the production version and integrate it. So, here's how to set that up:</p>
+
+<p><code>bash
+git remote add upstream https://github.com/kandanapp/kandan.git
+git remote   (this will list out your remotes, showing the new one we added)
+</code></p>
+
+<p>Then, when you need to pull the latest from the main kandan repo, you just fetch and merge the master branch:</p>
+
+<p><code>bash
+git fetch upstream
+git merge upstream/master
+</code></p>
+
+<p>You can also use <em>git pull upstream master</em> if you want it all in one step.</p>
+
+<p><strong>3. Making a branch for your changes</strong></p>
+
+<p>When adding features or bug fixes, please create a separate branch for each changeset you want us to pull in, either with the issue number in the branch name or with an indication of what the feature is. To create the branch, do something like this:</p>
+
+<p><code>bash
+git branch   (lists your current branches)
+git branch my_new_code   (makes a new branch called my_new_code)
+git checkout my_new_code
+</code></p>
+
+<p>If you're working on an issue in the Issues list for the main kandan repo, use the naming convention "kandan-[issue-num]" for your branch name to help us keep track of what your patch actually fixes</p>
+
+<p><strong>4. Push your code and make a pull request</strong></p>
+
+<p>When you have finished making your changes, you'll need to push up your changes to your fork so we can grab them. With them all committed, push them:</p>
+
+<p><code>bash
+git push upstream kandan-[issue-num]
+</code></p>
+
+<p>This pushes everything in that branch up. Then you can go back over to the main kandan github page and issue a pull request from there.  Tell us what you want us to merge and what it does/fixes, and one of us will pick it up.</p>
+
+<p>That lets us know that there's something new from you that needs to be pulled in. We'll review it and get back to you about it if we have any questions. Otherwise, we'll integrate it and let you know when it's in!</p>
+
+<h3>Conclusion</h3>
+
+<p>Hope this guide helps you get started in contributing to the kandan project! If you still have questions, don't hesitate to send an email over to admin@kandanapp.com and we'll get back to you.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Contribute Issues]]></title>
+    <link href="http://kandanapp.github.com/blog/2013/02/05/how-to-contribute-issues/"/>
+    <updated>2013-02-05T14:07:00-08:00</updated>
+    <id>http://kandanapp.github.com/blog/2013/02/05/how-to-contribute-issues</id>
+    <content type="html"><![CDATA[<div class="alert alert-info">
+    <h4>Note: </h4>This is a living Document. The most recent copy is always available on the <a href="https://github.com/kandanapp/kandan/wiki/How-to-Contribute-Issues">Wiki</a>
+</div>
+
+
+<h3>Overview</h3>
+
+<p>Spotting and reporting genuine issues in our platform is one of the most accessible ways to contribute but, in equal measure, also the most tricky to do well. If you use this guide as reference when you raise a ticket, it will reduce the chance of delays in it reaching our development team.</p>
+
+<h3>Searching Issues</h3>
+
+<p>Tickets for outstanding issues often contain workarounds shared by our development team, or links to threads that provide discussions and solutions between our community members. Otherwise, they will tell you when a fix for a issue was created and the build you need to obtain in order to take advantage of it.</p>
+
+<!-- more -->
+
+
+<p>It is not necessary to waste time debugging incorrect Kandan behavior that has either already been fixed or has a known workaround. Being familiar with GitHub's powerful issue search tool, will enable you to easily access this information.</p>
+
+<h2>Submitting Issues</h2>
+
+<h3>The Issue-Reporting Lifecycle</h3>
+
+<p>We are keenly-committed to being as open to feedback from our community as possible, to ensure that the platform becomes more stable and featureful in the shortest time. It cannot be underestimated how crucial community-reported bugs are to achieving this goal. Hence, if you find a issue, and you are able to reproduce it reliably with a simple use case, then we will be very grateful if you would report it to us.</p>
+
+<p>That said, the creation of tickets in the Issue Tracker should not be taken lightly. The management of each ticket can consume considerable resources, and so inaccurate or bogus submissions take unnecessary time away from what we would all prefer our development teams to be doing - improving the code.</p>
+
+<p>In addition to accuracy, tickets that are concise, complete, unemotional and objective are the ones our teams appreciate the most.</p>
+
+<h3>Issue Tracker Workflow Diagram</h3>
+
+<p><img src="https://raw.github.com/kandanapp/kandan/resources/GH-Issue_Tracker.png" alt="GitHub Issue Tracker Workflow" /></p>
+
+<h3>Creating a Use Case</h3>
+
+<p>A "use case" is working code or reproduction scenario that reliably reproduces a specific issue. What sets the quality use cases apart from the rest is that they contain the least possible code while still demonstrating the issue. Take pride in your use case; make it an art!</p>
+
+<p>Being in the habit of writing use cases as part of your troubleshooting process can significantly decrease the time we address your issue. This is because it can differentiate user errors from issues in the platform.</p>
+
+<h3>Creating a Issue</h3>
+
+<ul>
+<li>Create a Issue, only after there is no doubt about the issue's existence, Create one ticket per issue, bearing the following in mind:
+
+<ul>
+<li>keep to the point: concise, complete and factual tickets are the most appreciated</li>
+<li>include all the information: without a use case we probably cannot accept your issue</li>
+<li>watch your issue</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>Conclusion</h3>
+
+<p>We do not underestimate the time and conscientiousness involved in raising good issues, and we very much appreciate it. Although we'd love to chat with you. Adding a ticket asking how to do XYZ probably isn't a good idea.</p>
+
+<p>Thank you for all your efforts!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kandan an Open Source Alternative to HipChat]]></title>
+    <link href="http://kandanapp.github.com/blog/2013/02/03/kandan-an-open-source-alternative-to-hipchat/"/>
+    <updated>2013-02-03T14:37:00-08:00</updated>
+    <id>http://kandanapp.github.com/blog/2013/02/03/kandan-an-open-source-alternative-to-hipchat</id>
+    <content type="html"><![CDATA[<h3>Introduction</h3>
+
+<p>Today We'd like to introduce you to <a href="https://github.com/kandanapp/kandan">Kandan</a> an Open Source alternative to HipChat.</p>
+
+<p>What is Kandan? Kandan is a private chat service for your company or team. You can invite colleagues to share ideas and files in a persistent group chat room or rooms.</p>
+
+<p>Unlike HipChat or other alternatives, Kandan is completely Open Source and can be hosted internally or externally by your organization or by a third party.</p>
+
+<!-- more -->
+
+
+<h3>Background</h3>
+
+<p>Kandan was originally developed by <a href="http://cloudfuji.com/">Cloudfuji</a> and they started development on it back on March 6th of 2012. Development went pretty fast and furious until about June 4th of 2012. After that there wasn't another commit to the repository until some pull requests came in during the month of January of 2013.</p>
+
+<p>In talking with the team at Cloudfuji both <a href="http://jamesrgifford.com/">James Gifford</a> and <a href="http://fusion94.org">Tony Guntharp</a> agreed to take over maintenance of the project.</p>
+
+<h3>Features</h3>
+
+<p>These are features that work out of the box on any provider:</p>
+
+<ul>
+<li>Easy deploy to CloudFoundry, Heroku, dotCloud, etc.</li>
+<li>Collaborative team chat</li>
+<li>Unlimited channels</li>
+<li>Embed formats for images and youtube videos with requests for others (twitter, facebook, g+, etc.)</li>
+<li>Synchronized sound player - play any audio-tag compatible url for the whole channel (Pending :P)</li>
+<li>/me command!</li>
+<li>Highly extensible plugin format</li>
+</ul>
+
+
+<h3>Get Involved</h3>
+
+<p>Since Kandan is a fully open-source app, we would appreciate if you dive in and start adding features, fixing bugs (what bugs?), and cleaning up the code.</p>
+
+<p>Make sure you check out these resources as well.</p>
+
+<ul>
+<li>GitHub <a href="https://github.com/kandanapp/kandan/issues">Issues Tracker</a></li>
+<li>Twitter <a href="https://twitter.com/kandanapp">@kandanapp</a></li>
+<li><a href="http://kandan-demo.kandanapp.com/">Kandan Demo</a> (Yes we eat our own DogFood)</li>
+</ul>
+
+
+<p>You can also email us at admin@kandanapp.com</p>
+
+<h3>Conclusion</h3>
+
+<p>We're targetting a 1.0 release in just about two weeks time which will primarily consist of bug fixes. After that release we plan on doing regular minor releases that add new features so if there's anything you want to see in newer versions please create an <a href="https://github.com/kandanapp/kandan/issues">Issue</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
