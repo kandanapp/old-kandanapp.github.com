@@ -4,7 +4,9 @@ title: "How to Contribute Code"
 date: 2013-02-05 15:17
 comments: true
 categories: [Open Source, Development Process, Kandan]
+author: Tony Guntharp
 ---
+
 <div class="alert alert-info">
 	<h4>Note: </h4>This is a living Document. The most recent copy is always available on the <a href="https://github.com/kandanapp/kandan/wiki/How-to-Contribute-Code">Wiki</a>
 </div>

@@ -4,7 +4,9 @@ title: "Kandan 1.0 Release Announcement"
 date: 2013-02-06 20:51
 comments: true
 categories: [Open Source, Ruby on Rails, HipChat, Kandan]
+author: Tony Guntharp
 ---
+
 ### Announcement
 
 The Kandan Team is pleased to announce the Official 1.0 release of [Kandan](https://github.com/kandanapp/kandan) an Open Source alternative to HipChat.

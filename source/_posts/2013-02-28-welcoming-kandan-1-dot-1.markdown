@@ -4,7 +4,9 @@ title: "Welcoming Kandan 1.1"
 date: 2013-02-28 11:01
 comments: true
 categories: [Open Source, Ruby on Rails, HipChat, Kandan]
+author: Tony Guntharp
 ---
+
 The Kandan Team is pleased to announce the Official 1.0 release of [Kandan](https://github.com/kandanapp/kandan) an Open Source alternative to HipChat.
 
 What is Kandan? Kandan is a private chat service for your company or team. You can invite colleagues to share ideas and files in a persistent group chat room or rooms.

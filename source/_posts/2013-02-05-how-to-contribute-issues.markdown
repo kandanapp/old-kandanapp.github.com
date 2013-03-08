@@ -4,7 +4,9 @@ title: "How to Contribute Issues"
 date: 2013-02-05 14:07
 comments: true
 categories: [Open Source, Development Process, Kandan]
+author: Tony Guntharp
 ---
+
 <div class="alert alert-info">
 	<h4>Note: </h4>This is a living Document. The most recent copy is always available on the <a href="https://github.com/kandanapp/kandan/wiki/How-to-Contribute-Issues">Wiki</a>
 </div>

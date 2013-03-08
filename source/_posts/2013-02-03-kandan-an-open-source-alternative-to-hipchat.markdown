@@ -4,6 +4,7 @@ title: "Kandan an Open Source Alternative to HipChat"
 date: 2013-02-03 14:37
 comments: true
 categories: [Open Source, Ruby on Rails, HipChat, Kandan]
+author: Tony Guntharp
 ---
 ### Introduction
 Today We'd like to introduce you to [Kandan](https://github.com/kandanapp/kandan) an Open Source alternative to HipChat. 
