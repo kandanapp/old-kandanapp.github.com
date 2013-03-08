@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://kandanapp.github.com/sitemap.xml 
+Sitemap: http://kandanapp.com/sitemap.xml 

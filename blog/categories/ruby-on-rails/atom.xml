@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ruby on Rails | KandanApp]]></title>
-  <link href="http://kandanapp.github.com/blog/categories/ruby-on-rails/atom.xml" rel="self"/>
-  <link href="http://kandanapp.github.com/"/>
-  <updated>2013-03-08T11:47:06-08:00</updated>
-  <id>http://kandanapp.github.com/</id>
+  <link href="http://kandanapp.com/blog/categories/ruby-on-rails/atom.xml" rel="self"/>
+  <link href="http://kandanapp.com/"/>
+  <updated>2013-03-08T11:50:25-08:00</updated>
+  <id>http://kandanapp.com/</id>
   <author>
     <name><![CDATA[Kandan Crew]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Welcoming Kandan 1.1]]></title>
-    <link href="http://kandanapp.github.com/blog/2013/02/28/welcoming-kandan-1-dot-1/"/>
+    <link href="http://kandanapp.com/blog/2013/02/28/welcoming-kandan-1-dot-1/"/>
     <updated>2013-02-28T11:01:00-08:00</updated>
-    <id>http://kandanapp.github.com/blog/2013/02/28/welcoming-kandan-1-dot-1</id>
+    <id>http://kandanapp.com/blog/2013/02/28/welcoming-kandan-1-dot-1</id>
     <content type="html"><![CDATA[<p>The Kandan Team is pleased to announce the Official 1.0 release of <a href="https://github.com/kandanapp/kandan">Kandan</a> an Open Source alternative to HipChat.</p>
 
 <p>What is Kandan? Kandan is a private chat service for your company or team. You can invite colleagues to share ideas and files in a persistent group chat room or rooms.</p>
@@ -84,9 +84,9 @@
   
   <entry>
     <title type="html"><![CDATA[Kandan 1.0 Release Announcement]]></title>
-    <link href="http://kandanapp.github.com/blog/2013/02/06/kandan-1-dot-0-release-announcement/"/>
+    <link href="http://kandanapp.com/blog/2013/02/06/kandan-1-dot-0-release-announcement/"/>
     <updated>2013-02-06T20:51:00-08:00</updated>
-    <id>http://kandanapp.github.com/blog/2013/02/06/kandan-1-dot-0-release-announcement</id>
+    <id>http://kandanapp.com/blog/2013/02/06/kandan-1-dot-0-release-announcement</id>
     <content type="html"><![CDATA[<h3>Announcement</h3>
 
 <p>The Kandan Team is pleased to announce the Official 1.0 release of <a href="https://github.com/kandanapp/kandan">Kandan</a> an Open Source alternative to HipChat.</p>
@@ -220,9 +220,9 @@
   
   <entry>
     <title type="html"><![CDATA[Kandan an Open Source Alternative to HipChat]]></title>
-    <link href="http://kandanapp.github.com/blog/2013/02/03/kandan-an-open-source-alternative-to-hipchat/"/>
+    <link href="http://kandanapp.com/blog/2013/02/03/kandan-an-open-source-alternative-to-hipchat/"/>
     <updated>2013-02-03T14:37:00-08:00</updated>
-    <id>http://kandanapp.github.com/blog/2013/02/03/kandan-an-open-source-alternative-to-hipchat</id>
+    <id>http://kandanapp.com/blog/2013/02/03/kandan-an-open-source-alternative-to-hipchat</id>
     <content type="html"><![CDATA[<h3>Introduction</h3>
 
 <p>Today We'd like to introduce you to <a href="https://github.com/kandanapp/kandan">Kandan</a> an Open Source alternative to HipChat.</p>

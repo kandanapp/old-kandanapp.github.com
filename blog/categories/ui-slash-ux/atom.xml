@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: UI/UX | KandanApp]]></title>
-  <link href="http://kandanapp.github.com/blog/categories/ui-slash-ux/atom.xml" rel="self"/>
-  <link href="http://kandanapp.github.com/"/>
-  <updated>2013-03-08T11:47:06-08:00</updated>
-  <id>http://kandanapp.github.com/</id>
+  <link href="http://kandanapp.com/blog/categories/ui-slash-ux/atom.xml" rel="self"/>
+  <link href="http://kandanapp.com/"/>
+  <updated>2013-03-08T11:50:25-08:00</updated>
+  <id>http://kandanapp.com/</id>
   <author>
     <name><![CDATA[Kandan Crew]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[UI/UX Refresh Ideas For Kandan]]></title>
-    <link href="http://kandanapp.github.com/blog/2013/03/08/ui-slash-ux-refresh-ideas-for-kandan/"/>
+    <link href="http://kandanapp.com/blog/2013/03/08/ui-slash-ux-refresh-ideas-for-kandan/"/>
     <updated>2013-03-08T11:28:00-08:00</updated>
-    <id>http://kandanapp.github.com/blog/2013/03/08/ui-slash-ux-refresh-ideas-for-kandan</id>
+    <id>http://kandanapp.com/blog/2013/03/08/ui-slash-ux-refresh-ideas-for-kandan</id>
     <content type="html"><![CDATA[<h3>A general overview of how to fix some things in the layout.</h3>
 
 <p><img src="/images/ui_ux_1.jpg"></p>
