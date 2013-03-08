@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Kandan | KandanApp]]></title>
   <link href="http://kandanapp.github.com/blog/categories/kandan/atom.xml" rel="self"/>
   <link href="http://kandanapp.github.com/"/>
-  <updated>2013-03-08T11:13:00-08:00</updated>
+  <updated>2013-03-08T11:47:06-08:00</updated>
   <id>http://kandanapp.github.com/</id>
   <author>
     <name><![CDATA[Kandan Crew]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[UI/UX Refresh Ideas For Kandan]]></title>
+    <link href="http://kandanapp.github.com/blog/2013/03/08/ui-slash-ux-refresh-ideas-for-kandan/"/>
+    <updated>2013-03-08T11:28:00-08:00</updated>
+    <id>http://kandanapp.github.com/blog/2013/03/08/ui-slash-ux-refresh-ideas-for-kandan</id>
+    <content type="html"><![CDATA[<h3>A general overview of how to fix some things in the layout.</h3>
+
+<p><img src="/images/ui_ux_1.jpg"></p>
+
+<!-- more -->
+
+
+<ul>
+<li>Having the channels in a scroll area as opposed to a tabbed area allows for there to not be a limit on number of channels in one network. Tabs bunch up when there are too many channels.</li>
+<li>The people area should have it’s own space. This allows for better visibility of who is in the room when there are a lot of people connected. It also adds focus to the area instead of it just being a general module. Knowing who is in the room is a pretty important feature and should not be lumped into the same category as a module.</li>
+<li>The module area is for tools that are available to the room. I could imagine all kinds of tools that could go on this “toolbelt”.</li>
+<li>The chat area has not changed at all except for a slight reduction in it’s width.</li>
+</ul>
+
+
+<h3>An overview of the module / “toolbelt” area.</h3>
+
+<p><img src="/images/ui_ux_2.jpg"></p>
+
+<p>Having module icons in a tool area is compact and allows for more freedom when making potential future modules.</p>
+
+<h3>The People area</h3>
+
+<p><img src="/images/ui_ux_3.jpg"></p>
+
+<p>The people area is basically the same except that it gets it’s own area. I also think there should be a small area under the name dedicated to any data that needs to be displayed such as status.</p>
+
+<h3>The Channels area</h3>
+
+<p><img src="/images/ui_ux_4.jpg"></p>
+
+<p>The channels area is basically just a list of available channels. I didn’t include a channel delete button anywhere because I think that the admin should be the only one to create and delete channels. I think this is important because a troll could potentially get in and delete all the channels. You could also figure out how to not let trolls in.</p>
+
+<h3>Other Suggestions</h3>
+
+<ul>
+<li>I think that the the sound and notifications should be set under the user settings.</li>
+<li>The area for the logo should be a little bit bigger. People like to brand the tools they use.</li>
+<li>I think that the twitter bootstrap default styles should not be changed. People should be able to make skins/themes.</li>
+<li>An upload media button would be cool sitting right next to the submit button in the chat box.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Welcoming Kandan 1.1]]></title>
@@ -359,64 +409,6 @@ git push upstream kandan-[issue-num]
 <p>We do not underestimate the time and conscientiousness involved in raising good issues, and we very much appreciate it. Although we'd love to chat with you. Adding a ticket asking how to do XYZ probably isn't a good idea.</p>
 
 <p>Thank you for all your efforts!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Kandan an Open Source Alternative to HipChat]]></title>
-    <link href="http://kandanapp.github.com/blog/2013/02/03/kandan-an-open-source-alternative-to-hipchat/"/>
-    <updated>2013-02-03T14:37:00-08:00</updated>
-    <id>http://kandanapp.github.com/blog/2013/02/03/kandan-an-open-source-alternative-to-hipchat</id>
-    <content type="html"><![CDATA[<h3>Introduction</h3>
-
-<p>Today We'd like to introduce you to <a href="https://github.com/kandanapp/kandan">Kandan</a> an Open Source alternative to HipChat.</p>
-
-<p>What is Kandan? Kandan is a private chat service for your company or team. You can invite colleagues to share ideas and files in a persistent group chat room or rooms.</p>
-
-<p>Unlike HipChat or other alternatives, Kandan is completely Open Source and can be hosted internally or externally by your organization or by a third party.</p>
-
-<!-- more -->
-
-
-<h3>Background</h3>
-
-<p>Kandan was originally developed by <a href="http://cloudfuji.com/">Cloudfuji</a> and they started development on it back on March 6th of 2012. Development went pretty fast and furious until about June 4th of 2012. After that there wasn't another commit to the repository until some pull requests came in during the month of January of 2013.</p>
-
-<p>In talking with the team at Cloudfuji both <a href="http://jamesrgifford.com/">James Gifford</a> and <a href="http://fusion94.org">Tony Guntharp</a> agreed to take over maintenance of the project.</p>
-
-<h3>Features</h3>
-
-<p>These are features that work out of the box on any provider:</p>
-
-<ul>
-<li>Easy deploy to CloudFoundry, Heroku, dotCloud, etc.</li>
-<li>Collaborative team chat</li>
-<li>Unlimited channels</li>
-<li>Embed formats for images and youtube videos with requests for others (twitter, facebook, g+, etc.)</li>
-<li>Synchronized sound player - play any audio-tag compatible url for the whole channel (Pending :P)</li>
-<li>/me command!</li>
-<li>Highly extensible plugin format</li>
-</ul>
-
-
-<h3>Get Involved</h3>
-
-<p>Since Kandan is a fully open-source app, we would appreciate if you dive in and start adding features, fixing bugs (what bugs?), and cleaning up the code.</p>
-
-<p>Make sure you check out these resources as well.</p>
-
-<ul>
-<li>GitHub <a href="https://github.com/kandanapp/kandan/issues">Issues Tracker</a></li>
-<li>Twitter <a href="https://twitter.com/kandanapp">@kandanapp</a></li>
-<li><a href="http://kandan-demo.kandanapp.com/">Kandan Demo</a> (Yes we eat our own DogFood)</li>
-</ul>
-
-
-<p>You can also email us at admin@kandanapp.com</p>
-
-<h3>Conclusion</h3>
-
-<p>We're targetting a 1.0 release in just about two weeks time which will primarily consist of bug fixes. After that release we plan on doing regular minor releases that add new features so if there's anything you want to see in newer versions please create an <a href="https://github.com/kandanapp/kandan/issues">Issue</a>.</p>
 ]]></content>
   </entry>
   
