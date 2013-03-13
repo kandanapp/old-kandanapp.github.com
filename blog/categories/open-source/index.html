@@ -22,6 +22,7 @@
   <link href="/favicon.ico" rel="icon">
   <link href="/stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/bootstrap/core.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/stylesheets/syntax/syntax.css" media="screen, projection" rel="stylesheet" type="text/css">
   <style type="text/css">
     body {
@@ -64,14 +65,14 @@
 
       <div class="nav-collapse">
         <ul class="nav">
-  <li><a href="/">Home</a></li>		
-  <li><a href="/blog">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/" class="brand"><i class="icon-home icon-2x"> Home</i></a></li>		
+  <li><a href="/blog" class="brand"><i class="icon-bookmark icon-2x"> Blog</i></a></li>
+  <li><a href="/blog/archives" class="brand"><i class="icon-folder-open icon-2x"> Archives</i></a></li>
+  <li><a href="/about" class="brand"><i class="icon-asterisk icon-2x"> About</i></a>
 </ul>
 
-
         <ul class="nav pull-right" data-subscription="rss">
-          <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+          <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS" class="brand"><i class="icon-rss icon-2x"> RSS</i></a></li>
           
         </ul>
 
@@ -79,7 +80,7 @@
           <form class="pull-right navbar-search" action="http://google.com/search" method="get">
             <fieldset role="search">
               <input type="hidden" name="q" value="site:kandanapp.com" />
-              <input class="search-query" type="text" name="q" results="0" placeholder="Search"/>
+              <input class="search-query" type="text" name="q" results="0" placeholder="Search"/>&nbsp;&nbsp;&nbsp;&nbsp;
             </fieldset>
           </form>
         
@@ -105,6 +106,22 @@
 
   
   <h1>2013</h1>
+
+<article>
+  <div class="well">
+
+<h2><a href="/blog/2013/03/12/kandan-hubot-adapter-1-dot-0/">Kandan Hubot Adapter 1.0</a></h2>
+<time datetime="2013-03-12T11:11:00-07:00" pubdate><span class='month'>Mar</span> <span class='day'>12</span> <span class='year'>2013</span></time>
+
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/hubot/'>Hubot</a>, <a class='category' href='/blog/categories/kandan/'>Kandan</a>, <a class='category' href='/blog/categories/open-source/'>Open Source</a></span>
+</footer>
+
+</div>
+
+</article>
+
+
 
 <article>
   <div class="well">
@@ -212,6 +229,10 @@
     <li class="nav-header">Recent Posts</li>
     
       <li class="post">
+        <a href="/blog/2013/03/12/kandan-hubot-adapter-1-dot-0/">Kandan Hubot Adapter 1.0</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/03/08/ui-slash-ux-refresh-ideas-for-kandan/">UI/UX Refresh Ideas For Kandan</a>
       </li>
     
@@ -225,10 +246,6 @@
     
       <li class="post">
         <a href="/blog/2013/02/05/how-to-contribute-code/">How to Contribute Code</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/05/how-to-contribute-issues/">How to Contribute Issues</a>
       </li>
     
   </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[KandanApp]]></title>
   <link href="http://kandanapp.com/atom.xml" rel="self"/>
   <link href="http://kandanapp.com/"/>
-  <updated>2013-03-08T12:33:12-08:00</updated>
+  <updated>2013-03-12T17:58:02-07:00</updated>
   <id>http://kandanapp.com/</id>
   <author>
     <name><![CDATA[Kandan Crew]]></name>
@@ -12,6 +12,71 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Kandan Hubot Adapter 1.0]]></title>
+    <link href="http://kandanapp.com/blog/2013/03/12/kandan-hubot-adapter-1-dot-0/"/>
+    <updated>2013-03-12T11:11:00-07:00</updated>
+    <id>http://kandanapp.com/blog/2013/03/12/kandan-hubot-adapter-1-dot-0</id>
+    <content type="html"><![CDATA[<p>Now that we&#8217;ve released Kandan 1.1 we spent a little time focusing on getting a Hubot Adapter for Kandan up and running. After a week or so we now feel comfortable announcing the 1.0 release of the Kandan Hubot Adapter.</p>
+
+<p>A lot of you aren&#8217;t going to be familiar with <a href="http://hubot.github.com/">Hubot</a> so here&#8217;s a brief primer.</p>
+
+<!-- more -->
+
+
+<h4>What is Hubot?</h4>
+
+<p><a href="http://github.com">GitHub, Inc.,</a> wrote the first version of Hubot to automate their company chat room.Hubot is open source, written in CoffeeScript on Node.js, and easily deployed on platforms like Heroku. More importantly, Hubot is a standardized way to share scripts between everyone&#8217;s robots.</p>
+
+<h4>What can Hubot do?</h4>
+
+<p>Hubot ships with a <a href="https://github.com/github/hubot/tree/master/src/scripts">small group of core scripts</a>: things like posting images, translating languages, and integrating with Google Maps.</p>
+
+<p>The real fun happens when you add your own scripts. Github maintains a <a href="https://github.com/github/hubot-scripts">repository of community Hubot scripts</a> that you can add to your own robot.</p>
+
+<h4>Kandan Hubot Adapter Demo</h4>
+
+<p>You can demo the Kandan Hubot Adapter in action over on our <a href="http://kandan-demo.kandanapp.com">Demo Server</a>. Here is a full list of the commands available to it:</p>
+
+<ul>
+<li><code>hubot &lt;keyword&gt; tweet</code> - Returns a link to a tweet about <keyword></li>
+<li><code>hubot convert me &lt;expression&gt; to &lt;units&gt;</code> - Convert expression to given units.</li>
+<li><code>hubot help</code> - Displays all of the help commands that Hubot knows about.</li>
+<li><code>hubot help &lt;query&gt;</code> - Displays all help commands that match <query>.</li>
+<li><code>hubot image me &lt;query&gt;</code> - The Original. Queries Google Images for <query> and returns a random top result.</li>
+<li><code>hubot map me &lt;query&gt;</code> - Returns a map view of the area returned by <query>.</li>
+<li><code>hubot math me &lt;expression&gt;</code> - Calculate the given expression.</li>
+<li><code>hubot mustache me &lt;query&gt;</code> - Searches Google Images for the specified query and mustaches it.</li>
+<li><code>hubot ping</code> - Reply with pong</li>
+<li><code>hubot pug me</code> - Receive a pug</li>
+<li><code>hubot show me &lt;user/repo&gt; pulls [with &lt;regular expression&gt;]</code> - Shows open pull requests for that project by filtering pull request&#8217;s title.</li>
+<li><code>hubot the rules</code> - Make sure hubot still knows the rules.</li>
+<li><code>hubot time</code> - Reply with current time</li>
+<li><code>hubot translate me &lt;phrase&gt;</code> - Searches for a translation for the <phrase> and then prints that bad boy out.</li>
+<li><code>hubot translate me from &lt;source&gt; into &lt;target&gt; &lt;phrase&gt;</code> - Translates <phrase> from <source> into <target>. Both <source> and <target> are optional</li>
+<li><code>hubot travis me &lt;user&gt;/&lt;repo&gt;</code> - Returns the build status of https://github.com/<user>/<repo></li>
+<li><code>hubot youtube me &lt;query&gt;</code> - Searches YouTube for the query and returns the video embed link.</li>
+<li><code>ship it</code> - Display a motivation squirrel</li>
+</ul>
+
+
+<p>You can head over to <a href="https://github.com/kandanapp/hubot-kandan">Github Repo</a> to download and test out on your own Kandan installation. The Installation instructions aren&#8217;t perfect but they do in fact work.</p>
+
+<h4>Contributing</h4>
+
+<p>Contributions are welcome. To get your work considered please do the following:</p>
+
+<ul>
+<li>Fork this project</li>
+<li>Create a feature/bug fix branch</li>
+<li>Hack away, committing often and frequently</li>
+<li>Push your branch up to your fork</li>
+<li>Submit a pull request</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[UI/UX Refresh Ideas For Kandan]]></title>

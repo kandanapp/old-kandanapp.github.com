@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Kandan | KandanApp]]></title>
   <link href="http://kandanapp.com/blog/categories/kandan/atom.xml" rel="self"/>
   <link href="http://kandanapp.com/"/>
-  <updated>2013-03-08T12:33:12-08:00</updated>
+  <updated>2013-03-12T17:58:02-07:00</updated>
   <id>http://kandanapp.com/</id>
   <author>
     <name><![CDATA[Kandan Crew]]></name>
@@ -12,6 +12,71 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Kandan Hubot Adapter 1.0]]></title>
+    <link href="http://kandanapp.com/blog/2013/03/12/kandan-hubot-adapter-1-dot-0/"/>
+    <updated>2013-03-12T11:11:00-07:00</updated>
+    <id>http://kandanapp.com/blog/2013/03/12/kandan-hubot-adapter-1-dot-0</id>
+    <content type="html"><![CDATA[<p>Now that we've released Kandan 1.1 we spent a little time focusing on getting a Hubot Adapter for Kandan up and running. After a week or so we now feel comfortable announcing the 1.0 release of the Kandan Hubot Adapter.</p>
+
+<p>A lot of you aren't going to be familiar with <a href="http://hubot.github.com/">Hubot</a> so here's a brief primer.</p>
+
+<!-- more -->
+
+
+<h4>What is Hubot?</h4>
+
+<p><a href="http://github.com">GitHub, Inc.,</a> wrote the first version of Hubot to automate their company chat room.Hubot is open source, written in CoffeeScript on Node.js, and easily deployed on platforms like Heroku. More importantly, Hubot is a standardized way to share scripts between everyone's robots.</p>
+
+<h4>What can Hubot do?</h4>
+
+<p>Hubot ships with a <a href="https://github.com/github/hubot/tree/master/src/scripts">small group of core scripts</a>: things like posting images, translating languages, and integrating with Google Maps.</p>
+
+<p>The real fun happens when you add your own scripts. Github maintains a <a href="https://github.com/github/hubot-scripts">repository of community Hubot scripts</a> that you can add to your own robot.</p>
+
+<h4>Kandan Hubot Adapter Demo</h4>
+
+<p>You can demo the Kandan Hubot Adapter in action over on our <a href="http://kandan-demo.kandanapp.com">Demo Server</a>. Here is a full list of the commands available to it:</p>
+
+<ul>
+<li><code>hubot &lt;keyword&gt; tweet</code> - Returns a link to a tweet about <keyword></li>
+<li><code>hubot convert me &lt;expression&gt; to &lt;units&gt;</code> - Convert expression to given units.</li>
+<li><code>hubot help</code> - Displays all of the help commands that Hubot knows about.</li>
+<li><code>hubot help &lt;query&gt;</code> - Displays all help commands that match <query>.</li>
+<li><code>hubot image me &lt;query&gt;</code> - The Original. Queries Google Images for <query> and returns a random top result.</li>
+<li><code>hubot map me &lt;query&gt;</code> - Returns a map view of the area returned by <query>.</li>
+<li><code>hubot math me &lt;expression&gt;</code> - Calculate the given expression.</li>
+<li><code>hubot mustache me &lt;query&gt;</code> - Searches Google Images for the specified query and mustaches it.</li>
+<li><code>hubot ping</code> - Reply with pong</li>
+<li><code>hubot pug me</code> - Receive a pug</li>
+<li><code>hubot show me &lt;user/repo&gt; pulls [with &lt;regular expression&gt;]</code> - Shows open pull requests for that project by filtering pull request's title.</li>
+<li><code>hubot the rules</code> - Make sure hubot still knows the rules.</li>
+<li><code>hubot time</code> - Reply with current time</li>
+<li><code>hubot translate me &lt;phrase&gt;</code> - Searches for a translation for the <phrase> and then prints that bad boy out.</li>
+<li><code>hubot translate me from &lt;source&gt; into &lt;target&gt; &lt;phrase&gt;</code> - Translates <phrase> from <source> into <target>. Both <source> and <target> are optional</li>
+<li><code>hubot travis me &lt;user&gt;/&lt;repo&gt;</code> - Returns the build status of https://github.com/<user>/<repo></li>
+<li><code>hubot youtube me &lt;query&gt;</code> - Searches YouTube for the query and returns the video embed link.</li>
+<li><code>ship it</code> - Display a motivation squirrel</li>
+</ul>
+
+
+<p>You can head over to <a href="https://github.com/kandanapp/hubot-kandan">Github Repo</a> to download and test out on your own Kandan installation. The Installation instructions aren't perfect but they do in fact work.</p>
+
+<h4>Contributing</h4>
+
+<p>Contributions are welcome. To get your work considered please do the following:</p>
+
+<ul>
+<li>Fork this project</li>
+<li>Create a feature/bug fix branch</li>
+<li>Hack away, committing often and frequently</li>
+<li>Push your branch up to your fork</li>
+<li>Submit a pull request</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[UI/UX Refresh Ideas For Kandan]]></title>
@@ -344,71 +409,6 @@ git push upstream kandan-[issue-num]
 <h3>Conclusion</h3>
 
 <p>Hope this guide helps you get started in contributing to the kandan project! If you still have questions, don't hesitate to send an email over to admin@kandanapp.com and we'll get back to you.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How to Contribute Issues]]></title>
-    <link href="http://kandanapp.com/blog/2013/02/05/how-to-contribute-issues/"/>
-    <updated>2013-02-05T14:07:00-08:00</updated>
-    <id>http://kandanapp.com/blog/2013/02/05/how-to-contribute-issues</id>
-    <content type="html"><![CDATA[<div class="alert alert-info">
-    <h4>Note: </h4>This is a living Document. The most recent copy is always available on the <a href="https://github.com/kandanapp/kandan/wiki/How-to-Contribute-Issues">Wiki</a>
-</div>
-
-
-<h3>Overview</h3>
-
-<p>Spotting and reporting genuine issues in our platform is one of the most accessible ways to contribute but, in equal measure, also the most tricky to do well. If you use this guide as reference when you raise a ticket, it will reduce the chance of delays in it reaching our development team.</p>
-
-<h3>Searching Issues</h3>
-
-<p>Tickets for outstanding issues often contain workarounds shared by our development team, or links to threads that provide discussions and solutions between our community members. Otherwise, they will tell you when a fix for a issue was created and the build you need to obtain in order to take advantage of it.</p>
-
-<!-- more -->
-
-
-<p>It is not necessary to waste time debugging incorrect Kandan behavior that has either already been fixed or has a known workaround. Being familiar with GitHub's powerful issue search tool, will enable you to easily access this information.</p>
-
-<h2>Submitting Issues</h2>
-
-<h3>The Issue-Reporting Lifecycle</h3>
-
-<p>We are keenly-committed to being as open to feedback from our community as possible, to ensure that the platform becomes more stable and featureful in the shortest time. It cannot be underestimated how crucial community-reported bugs are to achieving this goal. Hence, if you find a issue, and you are able to reproduce it reliably with a simple use case, then we will be very grateful if you would report it to us.</p>
-
-<p>That said, the creation of tickets in the Issue Tracker should not be taken lightly. The management of each ticket can consume considerable resources, and so inaccurate or bogus submissions take unnecessary time away from what we would all prefer our development teams to be doing - improving the code.</p>
-
-<p>In addition to accuracy, tickets that are concise, complete, unemotional and objective are the ones our teams appreciate the most.</p>
-
-<h3>Issue Tracker Workflow Diagram</h3>
-
-<p><img src="https://raw.github.com/kandanapp/kandan/resources/GH-Issue_Tracker.png" alt="GitHub Issue Tracker Workflow" /></p>
-
-<h3>Creating a Use Case</h3>
-
-<p>A "use case" is working code or reproduction scenario that reliably reproduces a specific issue. What sets the quality use cases apart from the rest is that they contain the least possible code while still demonstrating the issue. Take pride in your use case; make it an art!</p>
-
-<p>Being in the habit of writing use cases as part of your troubleshooting process can significantly decrease the time we address your issue. This is because it can differentiate user errors from issues in the platform.</p>
-
-<h3>Creating a Issue</h3>
-
-<ul>
-<li>Create a Issue, only after there is no doubt about the issue's existence, Create one ticket per issue, bearing the following in mind:
-
-<ul>
-<li>keep to the point: concise, complete and factual tickets are the most appreciated</li>
-<li>include all the information: without a use case we probably cannot accept your issue</li>
-<li>watch your issue</li>
-</ul>
-</li>
-</ul>
-
-
-<h3>Conclusion</h3>
-
-<p>We do not underestimate the time and conscientiousness involved in raising good issues, and we very much appreciate it. Although we'd love to chat with you. Adding a ticket asking how to do XYZ probably isn't a good idea.</p>
-
-<p>Thank you for all your efforts!</p>
 ]]></content>
   </entry>
   

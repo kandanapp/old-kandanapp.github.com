@@ -932,8 +932,8 @@ h4 small {
   font-size: 14px;
 }
 .page-header {
-  padding-bottom: 11px;
-  margin: 24px 0 36px;
+  padding-bottom: 0px;
+  margin: 24px 0 0px;
   border-bottom: 1px solid #f6f6f6;
 }
 ul,
@@ -1991,7 +1991,7 @@ select:focus:required:invalid:focus {
   margin-left: 0;
 }
 input.search-query {
-  padding-right: 14px;
+  padding-right: 4px;
   padding-right: 4px \9;
   padding-left: 14px;
   padding-left: 4px \9;
@@ -6486,8 +6486,8 @@ a.badge:hover {
   -webkit-box-sizing: border-box;
 }
 h1 {
-  font-size: 54px;
-  line-height: 66px;
+  font-size: 38px;
+  line-height: 46px;
   font-weight: 300;
 }
 h2 {

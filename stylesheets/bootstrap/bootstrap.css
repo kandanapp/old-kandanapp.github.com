@@ -590,9 +590,8 @@ h4 small {
   font-size: 14px;
 }
 .page-header {
-  padding-bottom: 9px;
-  margin: 20px 0 30px;
-  border-bottom: 1px solid #eeeeee;
+  margin: 10px 0 10px;
+  border-bottom: 1px solid #e3e3e3;
 }
 ul,
 ol {

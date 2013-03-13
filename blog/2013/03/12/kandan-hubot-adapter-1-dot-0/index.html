@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Kandan - KandanApp</title>
+  <title>Kandan Hubot Adapter 1.0 - KandanApp</title>
   <meta name="author" content="Kandan Crew">
 
   
-  <meta name="description" content="Category: Kandan">
+  <meta name="description" content="">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://kandanapp.comblog/categories/kandan">
+  <link rel="canonical" href="http://kandanapp.com/blog/2013/03/12/kandan-hubot-adapter-1-dot-0">
   <link href="/favicon.ico" rel="icon">
   <link href="/stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -92,134 +92,153 @@
   <div class="container">
     <div class="row-fluid">
       
-<article role="article" class="span9">
+<article class="hentry span9" role="article">
 
   
   <header class="page-header">
-    <h1 class="entry-title">Category: Kandan</h1>
+    
+      <h1 class="entry-title">Kandan Hubot Adapter 1.0</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-12T11:11:00-07:00" pubdate data-updated="true">Mar 12<span>th</span>, 2013</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
     
   </header>
+
+
+<div class="entry-content"><p>Now that we&#8217;ve released Kandan 1.1 we spent a little time focusing on getting a Hubot Adapter for Kandan up and running. After a week or so we now feel comfortable announcing the 1.0 release of the Kandan Hubot Adapter.</p>
+
+<p>A lot of you aren&#8217;t going to be familiar with <a href="http://hubot.github.com/">Hubot</a> so here&#8217;s a brief primer.</p>
+
+<!-- more -->
+
+
+<h4>What is Hubot?</h4>
+
+<p><a href="http://github.com">GitHub, Inc.,</a> wrote the first version of Hubot to automate their company chat room.Hubot is open source, written in CoffeeScript on Node.js, and easily deployed on platforms like Heroku. More importantly, Hubot is a standardized way to share scripts between everyone&#8217;s robots.</p>
+
+<h4>What can Hubot do?</h4>
+
+<p>Hubot ships with a <a href="https://github.com/github/hubot/tree/master/src/scripts">small group of core scripts</a>: things like posting images, translating languages, and integrating with Google Maps.</p>
+
+<p>The real fun happens when you add your own scripts. Github maintains a <a href="https://github.com/github/hubot-scripts">repository of community Hubot scripts</a> that you can add to your own robot.</p>
+
+<h4>Kandan Hubot Adapter Demo</h4>
+
+<p>You can demo the Kandan Hubot Adapter in action over on our <a href="http://kandan-demo.kandanapp.com">Demo Server</a>. Here is a full list of the commands available to it:</p>
+
+<ul>
+<li><code>hubot &lt;keyword&gt; tweet</code> - Returns a link to a tweet about <keyword></li>
+<li><code>hubot convert me &lt;expression&gt; to &lt;units&gt;</code> - Convert expression to given units.</li>
+<li><code>hubot help</code> - Displays all of the help commands that Hubot knows about.</li>
+<li><code>hubot help &lt;query&gt;</code> - Displays all help commands that match <query>.</li>
+<li><code>hubot image me &lt;query&gt;</code> - The Original. Queries Google Images for <query> and returns a random top result.</li>
+<li><code>hubot map me &lt;query&gt;</code> - Returns a map view of the area returned by <query>.</li>
+<li><code>hubot math me &lt;expression&gt;</code> - Calculate the given expression.</li>
+<li><code>hubot mustache me &lt;query&gt;</code> - Searches Google Images for the specified query and mustaches it.</li>
+<li><code>hubot ping</code> - Reply with pong</li>
+<li><code>hubot pug me</code> - Receive a pug</li>
+<li><code>hubot show me &lt;user/repo&gt; pulls [with &lt;regular expression&gt;]</code> - Shows open pull requests for that project by filtering pull request&#8217;s title.</li>
+<li><code>hubot the rules</code> - Make sure hubot still knows the rules.</li>
+<li><code>hubot time</code> - Reply with current time</li>
+<li><code>hubot translate me &lt;phrase&gt;</code> - Searches for a translation for the <phrase> and then prints that bad boy out.</li>
+<li><code>hubot translate me from &lt;source&gt; into &lt;target&gt; &lt;phrase&gt;</code> - Translates <phrase> from <source> into <target>. Both <source> and <target> are optional</li>
+<li><code>hubot travis me &lt;user&gt;/&lt;repo&gt;</code> - Returns the build status of https://github.com/<user>/<repo></li>
+<li><code>hubot youtube me &lt;query&gt;</code> - Searches YouTube for the query and returns the video embed link.</li>
+<li><code>ship it</code> - Display a motivation squirrel</li>
+</ul>
+
+
+<p>You can head over to <a href="https://github.com/kandanapp/hubot-kandan">Github Repo</a> to download and test out on your own Kandan installation. The Installation instructions aren&#8217;t perfect but they do in fact work.</p>
+
+<h4>Contributing</h4>
+
+<p>Contributions are welcome. To get your work considered please do the following:</p>
+
+<ul>
+<li>Fork this project</li>
+<li>Create a feature/bug fix branch</li>
+<li>Hack away, committing often and frequently</li>
+<li>Push your branch up to your fork</li>
+<li>Submit a pull request</li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-  <div id="blog-archives" class="category">
+
+<span class="byline author vcard">Posted by <span class="fn">Tony Guntharp</span></span>
+
+      
 
 
 
-  
-  <h1>2013</h1>
-
-<article>
-  <div class="well">
-
-<h2><a href="/blog/2013/03/12/kandan-hubot-adapter-1-dot-0/">Kandan Hubot Adapter 1.0</a></h2>
-<time datetime="2013-03-12T11:11:00-07:00" pubdate><span class='month'>Mar</span> <span class='day'>12</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/hubot/'>Hubot</a>, <a class='category' href='/blog/categories/kandan/'>Kandan</a>, <a class='category' href='/blog/categories/open-source/'>Open Source</a></span>
-</footer>
-
-</div>
-
-</article>
 
 
 
-<article>
-  <div class="well">
 
-<h2><a href="/blog/2013/03/08/ui-slash-ux-refresh-ideas-for-kandan/">UI/UX Refresh Ideas For Kandan</a></h2>
-<time datetime="2013-03-08T11:28:00-08:00" pubdate><span class='month'>Mar</span> <span class='day'>08</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/kandan/'>Kandan</a>, <a class='category' href='/blog/categories/open-source/'>Open Source</a>, <a class='category' href='/blog/categories/ui-slash-ux/'>UI/UX</a></span>
-</footer>
-
-</div>
-
-</article>
-
-
-
-<article>
-  <div class="well">
-
-<h2><a href="/blog/2013/02/28/welcoming-kandan-1-dot-1/">Welcoming Kandan 1.1</a></h2>
-<time datetime="2013-02-28T11:01:00-08:00" pubdate><span class='month'>Feb</span> <span class='day'>28</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/hipchat/'>HipChat</a>, <a class='category' href='/blog/categories/kandan/'>Kandan</a>, <a class='category' href='/blog/categories/open-source/'>Open Source</a>, <a class='category' href='/blog/categories/ruby-on-rails/'>Ruby on Rails</a></span>
-</footer>
-
-</div>
-
-</article>
-
-
-
-<article>
-  <div class="well">
-
-<h2><a href="/blog/2013/02/06/kandan-1-dot-0-release-announcement/">Kandan 1.0 Release Announcement</a></h2>
-<time datetime="2013-02-06T20:51:00-08:00" pubdate><span class='month'>Feb</span> <span class='day'>06</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/hipchat/'>HipChat</a>, <a class='category' href='/blog/categories/kandan/'>Kandan</a>, <a class='category' href='/blog/categories/open-source/'>Open Source</a>, <a class='category' href='/blog/categories/ruby-on-rails/'>Ruby on Rails</a></span>
-</footer>
-
-</div>
-
-</article>
-
-
-
-<article>
-  <div class="well">
-
-<h2><a href="/blog/2013/02/05/how-to-contribute-code/">How to Contribute Code</a></h2>
-<time datetime="2013-02-05T15:17:00-08:00" pubdate><span class='month'>Feb</span> <span class='day'>05</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/development-process/'>Development Process</a>, <a class='category' href='/blog/categories/kandan/'>Kandan</a>, <a class='category' href='/blog/categories/open-source/'>Open Source</a></span>
-</footer>
-
-</div>
-
-</article>
-
-
-
-<article>
-  <div class="well">
-
-<h2><a href="/blog/2013/02/05/how-to-contribute-issues/">How to Contribute Issues</a></h2>
-<time datetime="2013-02-05T14:07:00-08:00" pubdate><span class='month'>Feb</span> <span class='day'>05</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/development-process/'>Development Process</a>, <a class='category' href='/blog/categories/kandan/'>Kandan</a>, <a class='category' href='/blog/categories/open-source/'>Open Source</a></span>
-</footer>
-
-</div>
-
-</article>
-
-
-
-<article>
-  <div class="well">
-
-<h2><a href="/blog/2013/02/03/kandan-an-open-source-alternative-to-hipchat/">Kandan an Open Source Alternative to HipChat</a></h2>
-<time datetime="2013-02-03T14:37:00-08:00" pubdate><span class='month'>Feb</span> <span class='day'>03</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/hipchat/'>HipChat</a>, <a class='category' href='/blog/categories/kandan/'>Kandan</a>, <a class='category' href='/blog/categories/open-source/'>Open Source</a>, <a class='category' href='/blog/categories/ruby-on-rails/'>Ruby on Rails</a></span>
-</footer>
-
-</div>
-
-</article>
-
-</div>
 
   
+
+
+<time datetime="2013-03-12T11:11:00-07:00" pubdate data-updated="true">Mar 12<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/hubot/'>Hubot</a>, <a class='category' href='/blog/categories/kandan/'>Kandan</a>, <a class='category' href='/blog/categories/open-source/'>Open Source</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kandanapp.com/blog/2013/03/12/kandan-hubot-adapter-1-dot-0/" data-via="kandanapp" data-counturl="http://kandanapp.com/blog/2013/03/12/kandan-hubot-adapter-1-dot-0/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    
+    <section>
+      <h1>Comments</h1>
+      <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    </section>
+    
+    <ul class="pager">
+      
+      <li class="previous"><a class="basic-alignment left"
+        href="/blog/2013/03/08/ui-slash-ux-refresh-ideas-for-kandan/" title="Previous Post:
+        UI/UX Refresh Ideas For Kandan">&laquo; UI/UX Refresh Ideas For Kandan</a></li>
+      
+      <li><a href="/blog/archives">Blog Archives</a></li>
+      
+    </ul>
+  </footer>
 </article>
 
 <aside class="sidebar-nav span3">
@@ -312,7 +331,10 @@
       var disqus_shortname = 'kandanapp';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://kandanapp.com/blog/2013/03/12/kandan-hubot-adapter-1-dot-0/';
+        var disqus_url = 'http://kandanapp.com/blog/2013/03/12/kandan-hubot-adapter-1-dot-0/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
