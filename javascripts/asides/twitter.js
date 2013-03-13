@@ -59,7 +59,7 @@ function linkifyTweet(text, url) {
 
 function showTwitterFeed(tweets, twitter_user) {
   var timeline = document.getElementById('tweets'),
-      content = '<li class="nav-header">Latest Tweets</li>';
+      content = '';
 
   for (var t in tweets) {
     content += '<li>';
