@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Kandan | KandanApp]]></title>
   <link href="http://kandanapp.com/blog/categories/kandan/atom.xml" rel="self"/>
   <link href="http://kandanapp.com/"/>
-  <updated>2013-03-13T07:21:10-07:00</updated>
+  <updated>2013-03-14T07:11:27-07:00</updated>
   <id>http://kandanapp.com/</id>
   <author>
     <name><![CDATA[Kandan Crew]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Initial Ruby 2.0 Support]]></title>
+    <link href="http://kandanapp.com/blog/2013/03/14/initial-ruby-2-dot-0-support/"/>
+    <updated>2013-03-14T06:52:00-07:00</updated>
+    <id>http://kandanapp.com/blog/2013/03/14/initial-ruby-2-dot-0-support</id>
+    <content type="html"><![CDATA[<p>We've been working hard on a variety of different things (bugs, new features etc)the last few releases and we're pleased to announce that the current <strong>MASTER</strong> branch of Kandan now supports Ruby 2.0.0 as well as Ruby 1.9.3.</p>
+
+<p>Any other versions of Ruby <strong>ARE NOT</strong> supported.</p>
+
+<!-- more -->
+
+
+<p><img src="/images/kandan_ruby2.png"></p>
+
+<p>Currently most of the development team is using Ruby 2.0 by default and both of our Heroku test instances to include the <a href="http://kandan-demo.kandanapp.com">Demo Server</a> are running using Ruby 2.0.</p>
+
+<p>If you plan on upgrading to Ruby 2.0 on Heroku do not forget to make the changes in the Gemfile to support this as <code>ruby '1.9.3'</code> now becomes <code>ruby '2.0.0'</code>.</p>
+
+<p>If you notice any issues using Ruby 2.0 please bring them to our attention over at the <a href="https://github.com/kandanapp/kandan/issues">Issue Tracker</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kandan Hubot Adapter 1.0]]></title>
@@ -330,85 +352,6 @@
 <li><a href="http://github.com/kandanapp/kandan/commit/a1fd6f9">a1fd6f9</a> Updated rails to avoid ActionPack vuls. <strong>(James Gifford)</strong></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How to Contribute Code]]></title>
-    <link href="http://kandanapp.com/blog/2013/02/05/how-to-contribute-code/"/>
-    <updated>2013-02-05T15:17:00-08:00</updated>
-    <id>http://kandanapp.com/blog/2013/02/05/how-to-contribute-code</id>
-    <content type="html"><![CDATA[<div class="alert alert-info">
-    <i class="icon-exclamation-sign icon-3x"></i>This is a living Document. The most recent copy is always available on the <a href="https://github.com/kandanapp/kandan/wiki/How-to-Contribute-Code">Wiki</a>
-</div>
-
-
-<h3>How To Contribute Code</h3>
-
-<p>Whether you've got a bugfix, documentation update, or new feature for us, these are the steps to follow to contribute code back into the main kandan repo.</p>
-
-<p><strong>1. Get the latest code from Github</strong></p>
-
-<p>You'll need to understand a little bit about how git and gihub work before this step (if you need an introduction guide, Github <a href="http://learn.github.com/p/intro.html">has a good one</a> you can learn from). In simple terms, log in to github, visit the Kandan project page, and click the "fork" button to create your own copy of the repo.  You will push your changes to this new repo under your own github account, and we will pull changes into the main repo from there.</p>
-
-<!-- more -->
-
-
-<p>For the sake of the rest of the examples in this guide, we're going to assume your Github username is "<strong>GITHUB_USERNAME</strong>" and use that in our examples.</p>
-
-<p>Now, we want to grab the latest from this newly created repository and pull it down to your local machine. Getting the latest code from your repo is simple, just clone it:</p>
-
-<p><code>bash
-git clone git://github.com/GITHUB_USERNAME/kandan.git
-cd kandan
-</code>
-This will give you a directory called "kandan" on your local machine with the latest checkout from your fork of the main kandan repo. <strong>Note:</strong> this is <em>not</em> a direct reference to the main kandan repo. When you make changes in your fork, you'll need to let us know about it so we can pull it over....but that's later in the process.</p>
-
-<p><strong>2. Add a remote for the main kandan repo</strong></p>
-
-<p>One thing you'll need to do to make things easier to integrate and keep up to date in your fork is to add the main kandan repo as a remote reference. This way you can fetch the latest code from the production version and integrate it. So, here's how to set that up:</p>
-
-<p><code>bash
-git remote add upstream https://github.com/kandanapp/kandan.git
-git remote   (this will list out your remotes, showing the new one we added)
-</code></p>
-
-<p>Then, when you need to pull the latest from the main kandan repo, you just fetch and merge the master branch:</p>
-
-<p><code>bash
-git fetch upstream
-git merge upstream/master
-</code></p>
-
-<p>You can also use <em>git pull upstream master</em> if you want it all in one step.</p>
-
-<p><strong>3. Making a branch for your changes</strong></p>
-
-<p>When adding features or bug fixes, please create a separate branch for each changeset you want us to pull in, either with the issue number in the branch name or with an indication of what the feature is. To create the branch, do something like this:</p>
-
-<p><code>bash
-git branch   (lists your current branches)
-git branch my_new_code   (makes a new branch called my_new_code)
-git checkout my_new_code
-</code></p>
-
-<p>If you're working on an issue in the Issues list for the main kandan repo, use the naming convention "kandan-[issue-num]" for your branch name to help us keep track of what your patch actually fixes</p>
-
-<p><strong>4. Push your code and make a pull request</strong></p>
-
-<p>When you have finished making your changes, you'll need to push up your changes to your fork so we can grab them. With them all committed, push them:</p>
-
-<p><code>bash
-git push upstream kandan-[issue-num]
-</code></p>
-
-<p>This pushes everything in that branch up. Then you can go back over to the main kandan github page and issue a pull request from there.  Tell us what you want us to merge and what it does/fixes, and one of us will pick it up.</p>
-
-<p>That lets us know that there's something new from you that needs to be pulled in. We'll review it and get back to you about it if we have any questions. Otherwise, we'll integrate it and let you know when it's in!</p>
-
-<h3>Conclusion</h3>
-
-<p>Hope this guide helps you get started in contributing to the kandan project! If you still have questions, don't hesitate to send an email over to admin@kandanapp.com and we'll get back to you.</p>
 ]]></content>
   </entry>
   

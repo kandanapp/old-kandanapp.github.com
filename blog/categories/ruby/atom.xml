@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby | KandanApp]]></title>
+  <link href="http://kandanapp.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://kandanapp.com/"/>
+  <updated>2013-03-14T07:11:27-07:00</updated>
+  <id>http://kandanapp.com/</id>
+  <author>
+    <name><![CDATA[Kandan Crew]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Initial Ruby 2.0 Support]]></title>
+    <link href="http://kandanapp.com/blog/2013/03/14/initial-ruby-2-dot-0-support/"/>
+    <updated>2013-03-14T06:52:00-07:00</updated>
+    <id>http://kandanapp.com/blog/2013/03/14/initial-ruby-2-dot-0-support</id>
+    <content type="html"><![CDATA[<p>We've been working hard on a variety of different things (bugs, new features etc)the last few releases and we're pleased to announce that the current <strong>MASTER</strong> branch of Kandan now supports Ruby 2.0.0 as well as Ruby 1.9.3.</p>
+
+<p>Any other versions of Ruby <strong>ARE NOT</strong> supported.</p>
+
+<!-- more -->
+
+
+<p><img src="/images/kandan_ruby2.png"></p>
+
+<p>Currently most of the development team is using Ruby 2.0 by default and both of our Heroku test instances to include the <a href="http://kandan-demo.kandanapp.com">Demo Server</a> are running using Ruby 2.0.</p>
+
+<p>If you plan on upgrading to Ruby 2.0 on Heroku do not forget to make the changes in the Gemfile to support this as <code>ruby '1.9.3'</code> now becomes <code>ruby '2.0.0'</code>.</p>
+
+<p>If you notice any issues using Ruby 2.0 please bring them to our attention over at the <a href="https://github.com/kandanapp/kandan/issues">Issue Tracker</a></p>
+]]></content>
+  </entry>
+  
+</feed>
